@@ -139,3 +139,44 @@ header {
     }
 
 }
+
+/*-----------------------------------------*/
+.third-section {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 837px;
+
+    .third-section-container {
+        width: 1312px;
+        height: 116px;
+        
+    }
+
+    .third-paragraph-section {
+      padding-top: 15px;
+    }
+
+    .team {
+        color: var(--primary-color);
+        font-size: 50px;
+    }
+
+    .photo-section {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1312px;
+        height: 480px;
+        margin-top: 30px;
+        gap: 48px;
+    }
+
+    .photo {
+        
+    }
+
+
+
+}
