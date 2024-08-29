@@ -31,18 +31,16 @@ body {
 
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: var(--primary-color);
     padding: 20px 64px;
     color: #fff;
+    height: 97px;
 
     .logo {
-        background: url(images/logo.png) no-repeat;
-        background-size: cover;
-        width: 150px;
-        height: 32px;
+        display: flex;
     }
-
 
     nav {
         font-weight: var(--font-weigth-regular);
@@ -59,7 +57,7 @@ header {
                 a {
                     color: #fff;
                     text-decoration: none;
-
+                    font-size: 20px;
                 }
 
                 a:hover {
@@ -76,13 +74,39 @@ header {
 
 .first-section {
     display: flex;
-    padding: 113px 64px;
     align-items: center;
-    gap: 128px;
+    justify-content: space-around;
+    height: 723px;
+
+    .logo {
+        
+    }
    
     .first-section-content{
-        
-        
+        margin-bottom: 100px;
+        margin-left: 20px;
+
+        .first-section-li-h1 {
+            margin-top: 15px;
+            font-size: 60px;
+            font-weight: 700;
+            line-height: 60px;
+        }
+
+        .first-button {
+            background-color: var(--primary-color);
+            width: 167px;
+            height: 45px;
+            border-radius: 8px;
+            border: none;
+            box-shadow: 0px 4px 12px 0px #00000040;
+        }
+
+        .first-section-li-medim {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 500;
+        }
 
 
     }
@@ -93,6 +117,10 @@ header {
         margin-bottom: 24px;
         width: 600px;
         font-size: 20px;
+    }
+
+    .img-first-section {
+        margin: 0px 80px 55px 0px;
     }
 
 
@@ -106,12 +134,14 @@ header {
 
 .second-section{
     display: flex;
-    padding: 127px 64px;
-    gap: 80px;
+    justify-content: space-around;
+    align-items: center;
     background-color: #6B4FA0;
     height: 540px;
 
-    
+    .second-content {
+        margin-bottom: 20px;
+    }
 
     .img-second-section{
         background: url(images/second-main.png) no-repeat;
@@ -123,17 +153,19 @@ header {
         list-style: none;
         width: 588px;
         height: 316px;
-        margin-top: 30px;
         font-style: roboto;
-        font-size: 20px;
+        font-size: 16px;
+        color: #fff;
 
 
         .second-li-h2{
-            font-size: 25px;
-            color: #F5D247
-            ;
-            
+            font-size: 40px;
+            color: #F5D247;
+        }
 
+        .second-li-h3 {
+            margin-top: 16px;
+            line-height: 24px;
         }
 
         li{
