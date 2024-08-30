@@ -104,6 +104,7 @@ header {
             border-radius: 8px;
             border: none;
             box-shadow: 0px 4px 12px 0px #00000040;
+            cursor: pointer;
         }
 
         .first-section-li-medim {
@@ -259,6 +260,7 @@ header {
         border-radius: 8px;
         border: none;
         box-shadow: 0px 4px 12px 0px #00000040;
+        cursor: pointer;
     }
 
 
